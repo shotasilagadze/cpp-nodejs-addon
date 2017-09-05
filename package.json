@@ -1,0 +1,49 @@
+{
+  "name": "addon",
+  "version": "1.0.0",
+  "description": "experiment addon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://silagadzeshota@git.respo.ge/silagadzeshota/module.git"
+  },
+   "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "~1.17.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "~4.15.2",
+    "express-ejs-extend": "0.0.1",
+    "express-session": "*",
+    "express-validator": "*",
+    "hogan.js": "^3.0.2",
+    "jade": "~1.11.0",
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.24",
+    "morgan": "~1.8.1",
+    "nodemailer": "^4.0.1",
+    "nodemailer-html-to-text": "^2.1.0",
+    "notyf": "^2.0.1",
+    "serve-favicon": "~2.4.2",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "eslint-plugin-html": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-csso": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "nodemon": "^1.11.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true
+}
